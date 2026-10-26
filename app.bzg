@@ -6,14 +6,14 @@ var server = http(8000);
 // ==========================================
 
 server.get = function (path, data){
-//print("get loc:" + path + "data:"+ data);
-print("get loc:" + path );
-if(path == "/"){
-server.sendFile("public/index.html");
-}
-else{
-server.sendFile("public/404.html");
-}
+  //print("get loc:" + path + "data:"+ data);
+  print("get loc:" + path );
+  if(path == "/"){
+  server.sendFile("public/index.html");
+  }
+  else{
+    server.sendFile("public/404.html");
+  }
 };
 
 // ==========================================
