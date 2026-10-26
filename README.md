@@ -1,1 +1,5 @@
-# ITE183_Lab2_Websocket.
+# install all dependencies
+bzg install
+
+# run the app
+bzg run
